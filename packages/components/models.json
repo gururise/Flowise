@@ -321,6 +321,11 @@
             "name": "chatAnthropic",
             "models": [
                 {
+                    "label": "claude-3-7-sonnet-latest",
+                    "name": "claude-3-7-sonnet-latest",
+                    "description": "Most recent snapshot version of Claude Sonnet 3.7 model - hybrid reasoning model"
+                },
+                {
                     "label": "claude-3-5-haiku-latest",
                     "name": "claude-3-5-haiku-latest",
                     "description": "Most recent snapshot version of Claude Haiku 3.5 - fastest model"
@@ -613,8 +618,12 @@
                     "name": "gpt-4o-2024-05-13"
                 },
                 {
-                    "label": "o3-mini",
+                    "label": "o3-mini (latest)",
                     "name": "o3-mini"
+                },
+                {
+                    "label": "o3-mini-2025-01-31",
+                    "name": "o3-mini-2025-01-31"
                 },
                 {
                     "label": "o1-preview (latest)",
